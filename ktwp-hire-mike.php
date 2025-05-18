@@ -37,7 +37,7 @@ function floating_div_enqueue_styles() {
             transition: transform 0.3s linear, opacity 0.6s !important;
             opacity: .85;
             cursor:pointer !important;
-			z-index:99999;
+			z-index:999; /* let things like appearance adjuster cover it. */
 			padding:6px;
         }
 		
